@@ -1188,14 +1188,13 @@ ul {
 }
 .courses-page .course .description {
     line-height: 1.6;
-    letter-spacing: 0.5px;
 }
 .courses-page  .info {
     font-size: 13px;
     border-top: 1px solid #eee;
 }
 .courses-page .course .info .title {
-    font-size: 14px;
+    font-size: 13px;
     position: absolute;
     top: -13px;
     left: 50%;
