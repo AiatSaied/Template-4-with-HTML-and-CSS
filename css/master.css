@@ -235,10 +235,6 @@ ul {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.welcome .body {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-}
 .welcome .body > div {
     flex: 1;
 }
@@ -496,8 +492,6 @@ ul {
     text-transform: capitalize;
     line-height: 1.8;
     min-height: 140px;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
 }
 /* End Latest Post */
 
@@ -872,10 +866,6 @@ ul {
     -ms-transform: scale(1);
     -o-transform: scale(1);
 }
-.backup-control .servers {
-    border-top: 1px solid #eee;
-    padding-top: 20px;
-}
 .backup-control .servers .server{
     border: 2px solid #eee;
     position: relative;
@@ -935,7 +925,6 @@ ul {
     -o-border-radius: 6px;
 }
 .profile-page .info-box .box {
-    border-bottom: 1px solid #eee;
     flex-wrap: wrap;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -1231,28 +1220,21 @@ ul {
     padding: 10px;
     cursor: pointer;
     border-radius: 50%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .friends-page .friend .contact i:hover {
     background-color: var(--blue-color);
     color: white;
 }
-.friends-page .friend .icons {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+
 .friends-page .friend .icons .vip {
     position: absolute;
     font-size: 40px;
@@ -1390,14 +1372,6 @@ ul {
     font-size: 15px;
     border-bottom: 1px solid #eee;
 }
-
-/* .plans-page .plan ul li .yes {
-    color: var(--green-color);
-}
-.plans-page .plan ul li i:not(.yes, .help) {
-    color: var(--red-color);
-} */
-
 .plans-page .plan ul li i:first-child {
     font-size: 18px;
     margin-right: 5px;
